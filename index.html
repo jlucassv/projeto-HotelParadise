@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Paradise</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/icon.png">
 </head>
 <body>
     <nav id="navBar">
         <div class="logoContainer">
-            <a href="./index.html"><img id="logo" src="./img/logoBranca.png"></a>
+            <a href="./index.html"><img id="logo" src="./assets/img/logoBranca.png"></a>
         </div>
         <ul id="navBarList">
-            <a href="#">
+            <a href="#acomodationSection">
                 <li class="navItems">Acomodações</li>
             </a>
-            <a href="#">
-                <li class="navItems">Lazer</li>
-            </a>
-            <a href="#">
+            <a href="#allInclusive">
                 <li class="navItems">All Inclusive</li>
+            </a>
+            <a href="#tipMessage">
+                <li class="navItems">Lazer</li>
             </a>
             <a href="#">
                 <li class="navItems">Sobre Nós</li>
@@ -32,21 +32,176 @@
         </div>
     </nav>
     <main class="mainContainer">
-        <div class="reserveMessage">
-            <p id="titleMessage">
-                Escape para o <strong>Paraíso</strong>
-            </p>
-            <p id="subtitleMessage">
-                Suas <strong>férias</strong> dos sonhos começam <strong>aqui</strong>!
-            </p>
+        <div class="Messages">
+            <div class="reserveMessage">
+                <p id="titleMessage">
+                    Escape para o <strong>Paraíso</strong>
+                </p>
+                <p id="subtitleMessage">
+                    Suas <strong>férias</strong> dos sonhos começam <strong>aqui</strong>!
+                </p>
+            </div>
         </div>
         
     </main>
-    
-    
-    
-    
-    
-    <script src="./index.js"></script>
+    <div class="promo" id="acomodationSection">
+        <h1>Diárias a partir de <span>R$799,99</span>. Faça sua <span>RESERVA</span>!</h1>
+    </div>
+    <section class="acomodationSection" >
+        <div class="title">
+            <h1 class="titles">Acomodações</h1>
+            <img class="iconSection" src="./assets/img/cama-de-solteiro.png" alt="">
+        </div>
+        <div class="acomodations">
+            <div class="acomodationBox">
+                <div class="imgBox">
+                    <img class="acomodationImg 1" src="./assets/img/suiteOásis.jpg" alt="suiteOasis">
+                    <div class="contentBox">
+                        <div class="contentImg">
+                            <img src="./assets/img/icons/familia2.png" alt="familia">
+                            <legend>Suporta até 2 pessoas</legend>
+                        </div>
+                        <div class="contentImg">
+                            <img src="./assets/img/icons/arvores.png" alt="arvore">
+                            <legend>Vista para o jardim</legend>
+                        </div>
+                        <div class="contentImg">
+                            <img src="./assets/img/icons/etiqueta-de-desconto.png   " alt="arvore">
+                            <legend>Programa de Fidelidade</legend>
+                        </div>
+                    </div>
+                </div>
+                <p><span>SUÍTE </span> OÁSIS</p>
+            </div>
+            <div class="acomodationBox">
+                <div class="imgBox">
+                    <img class="acomodationImg 2" src="./assets/img/suiteParaiso.jpg" alt="suiteParaiso">
+                    <div class="contentBox">
+                        <div class="contentImg">
+                            <img src="./assets/img/icons/cadeira-de-praia.png" alt="praia">
+                            <legend>Frente ao mar</legend>
+                        </div>
+                        <div class="contentImg">
+                            <img src="./assets/img/icons/piscina.png" alt="piscina">
+                            <legend>Ofurô privativo</legend>
+                        </div>
+                        <div class="contentImg">
+                            <img src="./assets/img/icons/familia2.png" alt="familia">
+                            <legend>Suporta até 3 pessoas</legend>
+                        </div>
+                    </div>
+                </div>
+                <p><span>SUÍTE </span> PARAÍSO</p>
+            </div>
+            <div class="acomodationBox">
+                <div class="imgBox">
+                    <img class="acomodationImg 3" src="./assets/img/suiteFamiliar.jpg" alt="suiteFamiliar">
+                    <div class="contentBox">
+                        <div class="contentImg">
+                            <img src="./assets/img/icons/silencio.png" alt="silencio">
+                            <legend>Área mais silenciosa</legend>
+                        </div>
+                        <div class="contentImg">
+                            <img id="iconCama" src="./assets/img/icons/cama.png" alt="cama">
+                            <legend>Até 1 cama extra</legend>
+                        </div>
+                        <div class="contentImg">
+                            <img src="./assets/img/icons/familia2.png" alt="familia">
+                            <legend>Suporta 4 pessoas</legend>
+                        </div>                   
+                    </div>
+                </div>
+                <p><span>SUÍTE </span> FAMILIAR</p>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="iconAndMessage">
+            <img src="./assets/img/enviei.png" alt="">
+            <p>FIQUE SABENDO DE TODAS <strong>PROMOÇÕES</strong>!</p>
+        </div>
+        <div class="newsletterInputs" id="allInclusive">
+            <form action="">
+                <input type="email" name="email" id="newsletterEmail" placeholder="E-mail" autocomplete="off">
+                <input type="submit" value="ENVIAR" id="submitNewsletter">
+            </form>
+        </div>
+    </section>
+    <div class="title">
+        <h1 class="titles" id="allInclusive">All Inclusive</h1>
+        <img class="iconSection" src="./assets/img/leisure.png" alt="">
+    </div>
+    <section class="allInclusiveSection">
+        <div class="carousel-container">
+           <div class="allInclusiveItems" id="firstIcon">
+                <img src="./assets/img/icons/coquetel2.png" alt="">
+           </div>
+           <div class="allInclusiveItems" id="secondIcon">
+                <img src="./assets/img/icons/mulher.png" alt="">
+           </div>
+           <div class="allInclusiveItems" id="thirdIcon">
+                <img src="./assets/img/icons/menino-menino.png" alt="">
+           </div>
+        </div>
+        <!-- <div class="line"></div> -->
+        <div class="allInclusiveMessages">
+            <p id="mainText">
+                No nosso <span>All Inclusive Resort</span>, seu único trabalho é relaxar e aproveitar sua estadia.<br> <span id="tipMessage">Clique nos ícones e saiba mais sobre nosso All Inclusive!</span>
+            </p>
+            <p id="firstIconText">
+                <span>Aproveite pratos irresistíveis e brinde à vida! </span><br> Além das opções de restaurantes, oferecemos experiências especiais com <span> mestres da coquetelaria e petiscos.</span>  O melhor de tudo, estão <span>incluídas na sua estadia!</span>
+            </p>
+            <p id="secondIconText">
+                <span>No nosso spa,</span> a busca pelo bem-estar é uma jornada, e estamos aqui para guiá-lo a cada passo do caminho. Relaxe e <span>desfrute de uma massagem terapêutica</span>  profunda e permita-se a uma renovação completa. <br><span id="tipMessage">Cada adulto tem direito a 1h de SPA gratuitamente!</span>
+            </p>
+            <p id="thirdIconText">
+                Com nosso programa <span>"Kid's Club"</span> as crianças encontrarão um <span>paraíso de brincadeiras supervisionadas</span>  por monitores o dia todo!
+                <span>Enquanto as crianças se divertem</span> no "Kid's Club", os adultos podem relaxar na piscina, desfrutar do spa<span> sem nenhuma preocupação.</span> <br>
+                <span id="tipMessage">2 crianças grátis até 10 anos!</span>
+
+            </p>
+        </div>
+    </section>
+    <div class="title">
+        <h1 class="titles" id="leisure">Lazer</h1>
+        <img class="iconSection" id="lazerIcon" src="./assets/img/icons/lazer2.png" alt="">
+    </div>
+    <section class="lazerSection">
+        <div class="lazerItems" id="first">
+            <h2>Praia Privativa</h2>
+            <img src="./assets/img/icons/de-praia.png" alt="">
+        </div>
+        <div class="lazerItems" id="sec">
+            <img src="./assets/img/icons/tratamento-facial.png" alt="">
+            <h2>Spa</h2>
+        </div>
+        <div class="lazerItems" id="third">
+            <h2>Quadra de Esportes</h2>
+            <img src="./assets/img/icons/esportes-com-bolas.png" alt="">
+        </div>
+        <div class="lazerItems" id="fourth">
+            <img src="./assets/img/icons/familia.png" alt="">
+            <h2>Programação para toda família</h2>
+        </div>
+        <div class="lazerItems" id="fifth">
+            <h2>Academia</h2>
+            <img src="./assets/img/icons/academia.png" alt="">
+        </div>
+        <div class="lazerItems" id="sixth">
+            <img src="./assets/img/icons/jogo-de-tabuleiro.png" alt="">
+            <h2>Sala de Jogos</h2>
+        </div>
+    </section>
+    <section class="call2action">
+        <div>
+            <h1>O QUE ESTÁ ESPERANDO?</h1>
+            <h2>GARANTA SUA RESERVA AGORA!</h2>
+        </div>
+        <button id="reserveBtn2">RESERVAR</button>
+    </section>
+    <footer>
+        
+    </footer>
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
