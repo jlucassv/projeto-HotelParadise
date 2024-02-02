@@ -1,4 +1,4 @@
-<h1 align="center">Landing Page </h1>
+<h1 align="center">Landing Page Hotel Paradise </h1>
 
 ## Sobre
 <p> Este projeto de Landing Page para o Hotel Paradise foi concebido e desenvolvido com a aplicação de uma variedade de tecnologias modernas, incluindo JavaScript, HTML e CSS. A abordagem técnica adotada foi não apenas criar uma presença digital visualmente atraente, mas também aprimorar habilidades tanto no desenvolvimento web quanto no design.  </p>
