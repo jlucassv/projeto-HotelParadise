@@ -385,8 +385,6 @@
 .lazerSection{
     padding: 0 150px;
 }
-.lazerItems {
-}
 .lazerItems img{
     width: 100px;
     height: 100px;
@@ -435,9 +433,27 @@
 }
 footer {
     background-color: #6b9b2c;
-    height: 40vh;
+    height: auto;
+    padding: 30px;
 }
 
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.iconDiv img{
+    height: 130px;
+    width: 130px;
+}
+.contact-info{
+    display: flex;
+    gap: 30px;
+}
+.social-icons i {
+    margin: 10px;
+}
 ::-webkit-scrollbar {
   width: 8px;
 }
