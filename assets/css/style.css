@@ -81,7 +81,7 @@
     flex-direction: column;
     justify-content: center;
     height: 110vh;
-    background: url(assets/img/imgHotel4.jpg);
+    background: url(projeto-HotelParadise/assets/img/imgHotel4.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -292,7 +292,7 @@
     align-items: center;
     justify-content: space-evenly;
     position: relative;
-    background: linear-gradient(rgba(0, 128, 0, 0.5), rgba(0, 128, 0, 0.5)), url(assets/img/imgHotel3.jpg);
+    background: linear-gradient(rgba(0, 128, 0, 0.5), rgba(0, 128, 0, 0.5)), url(projeto-HotelParadise/assets/img/imgHotel3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
